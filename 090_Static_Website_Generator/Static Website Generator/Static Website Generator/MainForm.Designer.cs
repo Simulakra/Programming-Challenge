@@ -60,8 +60,21 @@ namespace Static_Website_Generator
             this.button5 = new System.Windows.Forms.Button();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.btn_generate_and_open = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +96,8 @@ namespace Static_Website_Generator
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.textBox6);
+            this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.textBox4);
             this.tabPage1.Controls.Add(this.label4);
@@ -107,6 +122,14 @@ namespace Static_Website_Generator
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.richTextBox1);
+            this.tabPage2.Controls.Add(this.textBox8);
+            this.tabPage2.Controls.Add(this.textBox7);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Controls.Add(this.textBox5);
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -128,7 +151,7 @@ namespace Static_Website_Generator
             // 
             this.textBox1.Location = new System.Drawing.Point(64, 103);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 27);
+            this.textBox1.Size = new System.Drawing.Size(363, 27);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Site Name";
             // 
@@ -164,6 +187,7 @@ namespace Static_Website_Generator
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.btn_generate_and_open);
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -209,15 +233,15 @@ namespace Static_Website_Generator
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(363, 102);
+            this.listBox1.Location = new System.Drawing.Point(363, 162);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(323, 204);
+            this.listBox1.Size = new System.Drawing.Size(323, 144);
             this.listBox1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(363, 80);
+            this.label2.Location = new System.Drawing.Point(363, 139);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 20);
             this.label2.TabIndex = 4;
@@ -343,6 +367,101 @@ namespace Static_Website_Generator
             // 
             this.columnHeader2.Text = "ColumnHeader2";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(136, 6);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(183, 27);
+            this.textBox5.TabIndex = 3;
+            this.textBox5.Text = "About Me";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(122, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "About Page Title";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(433, 103);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(253, 27);
+            this.textBox6.TabIndex = 13;
+            this.textBox6.Text = "Home";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(429, 80);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(121, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Home Page Title";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 41);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(121, 20);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "About Page Text";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(12, 64);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(307, 168);
+            this.richTextBox1.TabIndex = 4;
+            this.richTextBox1.Text = "";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(328, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 20);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Age";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(370, 6);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(45, 27);
+            this.textBox7.TabIndex = 3;
+            this.textBox7.Text = "25";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(421, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(65, 20);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Country";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(492, 6);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(276, 27);
+            this.textBox8.TabIndex = 3;
+            this.textBox8.Text = "Turkey";
+            // 
+            // btn_generate_and_open
+            // 
+            this.btn_generate_and_open.Location = new System.Drawing.Point(456, 203);
+            this.btn_generate_and_open.Name = "btn_generate_and_open";
+            this.btn_generate_and_open.Size = new System.Drawing.Size(172, 35);
+            this.btn_generate_and_open.TabIndex = 0;
+            this.btn_generate_and_open.Text = "Generate && Open";
+            this.btn_generate_and_open.UseVisualStyleBackColor = true;
+            this.btn_generate_and_open.Click += new System.EventHandler(this.btn_generate_and_open_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -357,6 +476,9 @@ namespace Static_Website_Generator
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -394,6 +516,17 @@ namespace Static_Website_Generator
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_generate_and_open;
     }
 }
 
