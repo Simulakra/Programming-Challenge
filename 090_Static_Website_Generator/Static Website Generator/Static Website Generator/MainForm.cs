@@ -43,8 +43,25 @@ namespace Static_Website_Generator
             string full_HTML = File.ReadAllText(startup_path + @"\generate\index.html");
 
             //home page
-            full_HTML = full_HTML.Replace("<title>BreezyCV - Resume / CV / vCard Template</title>", "<title>" + site_variables.SiteName + "</title>");
+            full_HTML = full_HTML.Replace("BreezyCV - Resume / CV / vCard Template", site_variables.SiteName);
+            full_HTML = full_HTML.Replace("<meta name=\"author\" content=\"lmpixels\" />", "<meta name=\"author\" content=\""+ site_variables.SiteName + "\" />");
             full_HTML = full_HTML.Replace("Alex Smith", site_variables.SiteName);
+            full_HTML = full_HTML.Replace("<span class=\"link - text\">Home</span>", "<span class=\"link - text\">"+site_variables.PageTitle_Home+"</span>");
+            full_HTML = full_HTML.Replace("<a href=\"#\" target=\"_blank\" class=\"btn btn-primary\">Download CV</a>",
+                "<a href=\"" + site_variables.DownloadLink + "\" target=\"_blank\" class=\"btn btn-primary\">" + site_variables.DownloadButton+"</a>");
+
+            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>", "");
+            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>", "");
+            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>", "#link_here#");
+
+            string social_links = "";
+            foreach (var item in site_variables.Socials)
+            {
+                social_links += "<li><a href=\"" + item.Value + "\" target=\"_blank\"><i class=\"fab " +
+                    Variables.SocialMediaIcons[item.Key] + "\"></i></a></li>";
+            }
+            full_HTML = full_HTML.Replace("#link_here#", social_links);
+
             #endregion
 
             //save last HTML file
@@ -59,6 +76,27 @@ namespace Static_Website_Generator
         {
             site_variables.Theme = radioButton1.Checked ? Variables.Themes.Light : Variables.Themes.Dark;
             site_variables.SiteName = textBox1.Text;
+            site_variables.PageTitle_Home = textBox6.Text;
+            site_variables.DownloadButton = textBox3.Text;
+            site_variables.DownloadLink = textBox4.Text;
+
+            site_variables.Titles = new List<string>();
+            foreach (string item in listBox1.Items)
+                site_variables.Titles.Add(item);
+
+            site_variables.Socials = new Dictionary<Variables.SocialMedias, string>();
+            foreach (ListViewItem item in listView1.Items)
+                site_variables.Socials.Add( (Variables.SocialMedias)item.Tag, item.SubItems[0].Text );
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox2.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1) listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
     }
 }
