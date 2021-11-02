@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Compression;
 using System.IO;
+using HtmlAgilityPack;
 
 namespace Static_Website_Generator
 {
@@ -40,52 +41,42 @@ namespace Static_Website_Generator
 
             #region change variables in html file
             //get default site
-            string full_HTML = File.ReadAllText(startup_path + @"\generate\index.html");
+            HtmlAgilityPack.HtmlDocument html_index = new HtmlAgilityPack.HtmlDocument();
+            html_index.Load(startup_path + @"\generate\index.html");
 
             //home page
-            full_HTML = full_HTML.Replace("BreezyCV - Resume / CV / vCard Template", site_variables.SiteName);
-            full_HTML = full_HTML.Replace("<meta name=\"author\" content=\"lmpixels\" />", "<meta name=\"author\" content=\""+ site_variables.SiteName + "\" />");
-            full_HTML = full_HTML.Replace("Alex Smith", site_variables.SiteName);
-            full_HTML = full_HTML.Replace("<span class=\"link - text\">Home</span>", "<span class=\"link - text\">"+site_variables.PageTitle_Home+"</span>");
-            full_HTML = full_HTML.Replace("<a href=\"#\" target=\"_blank\" class=\"btn btn-primary\">Download CV</a>",
-                "<a href=\"" + site_variables.DownloadLink + "\" target=\"_blank\" class=\"btn btn-primary\">" + site_variables.DownloadButton+"</a>");
+            html_index.DocumentNode.SelectSingleNode("/html/head/title").InnerHtml = site_variables.SiteName;
+            html_index.DocumentNode.SelectSingleNode("/html/head/meta[4]").SetAttributeValue("content", site_variables.SiteName);//description meta
+            html_index.DocumentNode.SelectSingleNode("/html/head/meta[6]").SetAttributeValue("content", site_variables.SiteName);//author meta
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[1]/div[2]/h2").InnerHtml = site_variables.SiteName;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[1]/a/span[2]").InnerHtml = site_variables.PageTitle_Home;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").InnerHtml = site_variables.DownloadButton;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").SetAttributeValue("href", site_variables.DownloadFileName.Substring(1));
 
-            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>", "");
-            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>", "");
-            full_HTML = full_HTML.Replace("<li><a href=\"#\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>", "#link_here#");
-
-            string social_links = "";
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[2]/ul").InnerHtml = "";
             foreach (var item in site_variables.Socials)
             {
-                social_links += "<li><a href=\"" + item.Value + "\" target=\"_blank\"><i class=\"fab " +
-                    Variables.SocialMediaIcons[item.Key] + "\"></i></a></li>";
+                html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[2]/ul").InnerHtml +=
+                    "<li><a href=\"" + item[1] + "\" target=\"_blank\"><i class=\"fab " + item[0] + "\"></i></a></li>";
             }
-            full_HTML = full_HTML.Replace("#link_here#", social_links);
 
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[1]/div[2]/h4").InnerHtml = "";
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[1]/div[1]/div/div/div/div").InnerHtml = "";
             if (site_variables.Titles.Count > 0)
             {
-                //??????????????????????????
-                string title_sets = "";
+                html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[1]/div[2]/h4").InnerHtml = site_variables.Titles[0];
                 foreach (var item in site_variables.Titles)
                 {
-                    title_sets += "<div class=\"item\"><div class=\"sp-subtitle\">"+item+"</div></div>";
+                    html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[1]/div[1]/div/div/div/div").InnerHtml +=
+                        "<div class=\"item\"><div class=\"sp-subtitle\">"+item+"</div></div>";
                 }
-                full_HTML = full_HTML.Replace("<div class=\"item\">\n" +
-                    "<div class=\"sp-subtitle\">Web Designer</div>\n" +
-                    "</div>", "");
-                full_HTML = full_HTML.Replace("<div class=\"item\">\n" +
-                    "<div class=\"sp-subtitle\">Frontend-developer</div>\n" +
-                    "</div>", "#title_set#");
-                full_HTML = full_HTML.Replace("Web Designer", site_variables.Titles[0]);
-                full_HTML = full_HTML.Replace("#title_set#", title_sets);
-
             }
 
             #endregion
 
             //save last HTML file
-            File.Delete(startup_path + @"\generate\index.html");
-            File.WriteAllText(startup_path + @"\generate\index.html", full_HTML);
+            html_index.Save(startup_path + @"\generate\index.html");
+            if (site_variables.DownloadLink != "") File.Copy(site_variables.DownloadLink, startup_path + site_variables.DownloadFileName);
 
             //all done :)
             MessageBox.Show("All site generation done","Done");
@@ -99,14 +90,17 @@ namespace Static_Website_Generator
             site_variables.PageTitle_Home = textBox6.Text;
             site_variables.DownloadButton = textBox3.Text;
             site_variables.DownloadLink = textBox4.Text;
+            if (site_variables.DownloadLink == "") site_variables.DownloadFileName = "##";
+            else site_variables.DownloadFileName = textBox4.Text.Substring(textBox4.Text.LastIndexOf('\\'));
 
             site_variables.Titles = new List<string>();
             foreach (string item in listBox1.Items)
                 site_variables.Titles.Add(item);
 
-            site_variables.Socials = new Dictionary<Variables.SocialMedias, string>();
+            site_variables.Socials = new List<string[]>();
             foreach (ListViewItem item in listView1.Items)
-                site_variables.Socials.Add( (Variables.SocialMedias)int.Parse(item.Tag.ToString()), item.SubItems[0].Text );
+                site_variables.Socials.Add( new string[]{
+                Variables.SocialMediaIcons[(Variables.SocialMedias)int.Parse(item.Tag.ToString())], item.SubItems[1].Text } );
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -118,6 +112,33 @@ namespace Static_Website_Generator
         private void button2_Click(object sender, EventArgs e)
         {
             if (listBox1.SelectedIndex != -1) listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count != 0) listView1.SelectedItems[0].Remove();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var dia = new Dialog.AddSocial();
+            if (dia.ShowDialog() == DialogResult.OK) {
+                var temp = new ListViewItem();
+#pragma warning disable CS1690 // Accessing a member on a field of a marshal-by-reference class may cause a runtime exception
+                temp.Text = dia.SocialMedia.ToString();
+#pragma warning restore CS1690 // Accessing a member on a field of a marshal-by-reference class may cause a runtime exception
+                temp.Tag = (int)dia.SocialMedia;
+                temp.SubItems.Add(dia.Link);
+                listView1.Items.Add(temp);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+                textBox4.Text = ofd.FileName;
+            else textBox4.Text = "";
         }
     }
 }

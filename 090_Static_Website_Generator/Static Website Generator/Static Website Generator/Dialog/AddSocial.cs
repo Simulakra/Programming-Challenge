@@ -28,7 +28,7 @@ namespace Static_Website_Generator.Dialog
             this.Link = textBox1.Text;
             //this.SocialMedia = Variables.SocialMediaIcons.Keys.ElementAt(comboBox1.SelectedIndex);
             this.SocialMedia = (Variables.SocialMedias)comboBox1.SelectedIndex;
-            this.DialogResult = DialogResult.Cancel;
+            this.DialogResult = DialogResult.OK;
             this.Close();
         }
 

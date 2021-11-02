@@ -41,8 +41,9 @@ namespace Static_Website_Generator
         public string SiteName;
         public string PageTitle_Home;
         public List<string> Titles;
-        public Dictionary<SocialMedias,string> Socials;
+        public List<string[]> Socials;
         public string DownloadButton;
         public string DownloadLink;
+        public string DownloadFileName;
     }
 }

@@ -29,7 +29,7 @@ namespace Static_Website_Generator
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Facebook",
             "https://tr-tr.facebook.com/test"}, -1);
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -145,6 +145,7 @@ namespace Static_Website_Generator
             this.button3.TabIndex = 11;
             this.button3.Text = "Select";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox4
             // 
@@ -153,7 +154,6 @@ namespace Static_Website_Generator
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(255, 27);
             this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "C:\\demo.pdf";
             // 
             // label4
             // 
@@ -201,6 +201,7 @@ namespace Static_Website_Generator
             this.button4.TabIndex = 6;
             this.button4.Text = "Del";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -210,6 +211,7 @@ namespace Static_Website_Generator
             this.button5.TabIndex = 7;
             this.button5.Text = "Add";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // listView1
             // 
@@ -218,10 +220,10 @@ namespace Static_Website_Generator
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
-            listViewItem1.Tag = "2";
+            listViewItem4.StateImageIndex = 0;
+            listViewItem4.Tag = "2";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem4});
             this.listView1.Location = new System.Drawing.Point(6, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(281, 175);
