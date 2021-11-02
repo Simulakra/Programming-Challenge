@@ -62,6 +62,25 @@ namespace Static_Website_Generator
             }
             full_HTML = full_HTML.Replace("#link_here#", social_links);
 
+            if (site_variables.Titles.Count > 0)
+            {
+                //??????????????????????????
+                string title_sets = "";
+                foreach (var item in site_variables.Titles)
+                {
+                    title_sets += "<div class=\"item\"><div class=\"sp-subtitle\">"+item+"</div></div>";
+                }
+                full_HTML = full_HTML.Replace("<div class=\"item\">\n" +
+                    "<div class=\"sp-subtitle\">Web Designer</div>\n" +
+                    "</div>", "");
+                full_HTML = full_HTML.Replace("<div class=\"item\">\n" +
+                    "<div class=\"sp-subtitle\">Frontend-developer</div>\n" +
+                    "</div>", "#title_set#");
+                full_HTML = full_HTML.Replace("Web Designer", site_variables.Titles[0]);
+                full_HTML = full_HTML.Replace("#title_set#", title_sets);
+
+            }
+
             #endregion
 
             //save last HTML file
@@ -70,6 +89,7 @@ namespace Static_Website_Generator
 
             //all done :)
             MessageBox.Show("All site generation done","Done");
+            System.Diagnostics.Process.Start(startup_path + @"\generate\index.html");
         }
 
         private void get_variables()
@@ -86,12 +106,13 @@ namespace Static_Website_Generator
 
             site_variables.Socials = new Dictionary<Variables.SocialMedias, string>();
             foreach (ListViewItem item in listView1.Items)
-                site_variables.Socials.Add( (Variables.SocialMedias)item.Tag, item.SubItems[0].Text );
+                site_variables.Socials.Add( (Variables.SocialMedias)int.Parse(item.Tag.ToString()), item.SubItems[0].Text );
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(textBox2.Text);
+            textBox2.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)

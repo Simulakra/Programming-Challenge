@@ -29,7 +29,7 @@ namespace Static_Website_Generator
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Facebook",
             "https://tr-tr.facebook.com/test"}, -1);
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -218,9 +218,10 @@ namespace Static_Website_Generator
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            listViewItem2.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
+            listViewItem1.Tag = "2";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(6, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(281, 175);
