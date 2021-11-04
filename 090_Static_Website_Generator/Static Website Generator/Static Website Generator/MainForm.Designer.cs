@@ -29,9 +29,30 @@ namespace Static_Website_Generator
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Facebook",
             "https://tr-tr.facebook.com/test"}, -1);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Ecommerce",
+            "lnr-store",
+            "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
+                "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Copywriting",
+            "lnr-pencil",
+            "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
+                "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Web Design",
+            "lnr-laptop-phone",
+            "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
+                "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Management",
+            "lnr-flag",
+            "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
+                "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -71,6 +92,22 @@ namespace Static_Website_Generator
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.btn_generate_and_open = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label14 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -220,10 +257,10 @@ namespace Static_Website_Generator
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            listViewItem4.StateImageIndex = 0;
-            listViewItem4.Tag = "2";
+            listViewItem1.StateImageIndex = 0;
+            listViewItem1.Tag = "2";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(6, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(281, 175);
@@ -268,6 +305,9 @@ namespace Static_Website_Generator
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
+            this.listBox1.Items.AddRange(new object[] {
+            "Test Title",
+            "More Title"});
             this.listBox1.Location = new System.Drawing.Point(363, 162);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(323, 144);
@@ -332,6 +372,20 @@ namespace Static_Website_Generator
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.listView2);
+            this.tabPage2.Controls.Add(this.checkBox4);
+            this.tabPage2.Controls.Add(this.checkBox3);
+            this.tabPage2.Controls.Add(this.checkBox2);
+            this.tabPage2.Controls.Add(this.checkBox1);
+            this.tabPage2.Controls.Add(this.textBox12);
+            this.tabPage2.Controls.Add(this.label13);
+            this.tabPage2.Controls.Add(this.textBox11);
+            this.tabPage2.Controls.Add(this.label12);
+            this.tabPage2.Controls.Add(this.textBox10);
+            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.textBox9);
+            this.tabPage2.Controls.Add(this.label14);
+            this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.richTextBox1);
             this.tabPage2.Controls.Add(this.textBox8);
             this.tabPage2.Controls.Add(this.textBox7);
@@ -352,9 +406,9 @@ namespace Static_Website_Generator
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 64);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(307, 168);
+            this.richTextBox1.Size = new System.Drawing.Size(307, 126);
             this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // textBox8
             // 
@@ -467,6 +521,156 @@ namespace Static_Website_Generator
             this.btn_generate_and_open.UseVisualStyleBackColor = true;
             this.btn_generate_and_open.Click += new System.EventHandler(this.btn_generate_and_open_Click);
             // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(492, 64);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(183, 27);
+            this.textBox9.TabIndex = 6;
+            this.textBox9.Text = "What I Do";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(376, 67);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(110, 20);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "What I Do Title";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(681, 66);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(77, 24);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Active?";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(361, 100);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(125, 20);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Testimonials Title";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(492, 97);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(183, 27);
+            this.textBox10.TabIndex = 6;
+            this.textBox10.Text = "Testimonials";
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.Location = new System.Drawing.Point(681, 99);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(77, 24);
+            this.checkBox2.TabIndex = 7;
+            this.checkBox2.Text = "Active?";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(399, 133);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(87, 20);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Cilents Title";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(492, 130);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(183, 27);
+            this.textBox11.TabIndex = 6;
+            this.textBox11.Text = "Cilents";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Checked = true;
+            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox3.Location = new System.Drawing.Point(681, 132);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(77, 24);
+            this.checkBox3.TabIndex = 7;
+            this.checkBox3.Text = "Active?";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(381, 166);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(105, 20);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Fun Facts Title";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(492, 163);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(183, 27);
+            this.textBox12.TabIndex = 6;
+            this.textBox12.Text = "Fun Facts";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Checked = true;
+            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.Location = new System.Drawing.Point(681, 165);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(77, 24);
+            this.checkBox4.TabIndex = 7;
+            this.checkBox4.Text = "Active?";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // listView2
+            // 
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader3,
+            this.columnHeader4});
+            this.listView2.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView2.HideSelection = false;
+            listViewItem2.StateImageIndex = 0;
+            listViewItem2.Tag = "";
+            this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5});
+            this.listView2.Location = new System.Drawing.Point(12, 227);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(217, 175);
+            this.listView2.TabIndex = 8;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Tile;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "ColumnHeader2";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(8, 204);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(117, 20);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "What I Do Items";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -532,6 +736,22 @@ namespace Static_Website_Generator
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_generate_and_open;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label10;
     }
 }
 
