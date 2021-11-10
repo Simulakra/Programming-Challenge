@@ -72,6 +72,10 @@ namespace Static_Website_Generator
                 }
             }
 
+            //delete blog page and nav button
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/header/ul/li[5]").Remove();
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[5]").Remove();
+
             #endregion
 
             //save last HTML file
