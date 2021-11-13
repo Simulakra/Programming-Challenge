@@ -40,10 +40,21 @@ namespace Static_Website_Generator
         public Themes Theme;
         public string SiteName;
         public string PageTitle_Home;
+        public string PageTitle_About;
+        public string PageTitle_Resume;
+        public string PageTitle_Portfolio;
+        public string PageTitle_Contact;
         public List<string> Titles;
         public List<string[]> Socials;
         public string DownloadButton;
         public string DownloadLink;
         public string DownloadFileName;
+
+        //Contact
+        public string Location;
+        public string Phone;
+        public string Email;
+        public string Freelance;
+        public string Map_Location;
     }
 }

@@ -29,106 +29,106 @@ namespace Static_Website_Generator
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "Facebook",
             "https://tr-tr.facebook.com/test"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "Happy Clients",
             "578",
             "lnr-heart"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Working Hours",
             "4780",
             "lnr-clock"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "Awards Won",
             "15",
             "lnr-star"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
             "Julia Hickman",
             "Omni Source",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Robert Watkins",
             "Endicott Shoes",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kristin Carroll",
             "Helping Hand",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ecommerce",
             "lnr-store",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
             "Copywriting",
             "lnr-pencil",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
             "Web Design",
             "lnr-laptop-phone",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
             "Management",
             "lnr-flag",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
             "Happy Clients",
             "578",
             "lnr-heart"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
             "Working Hours",
             "4780",
             "lnr-clock"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
             "Awards Won",
             "15",
             "lnr-star"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
             "Julia Hickman",
             "Omni Source",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
             "Robert Watkins",
             "Endicott Shoes",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kristin Carroll",
             "Helping Hand",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ecommerce",
             "lnr-store",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem(new string[] {
             "Copywriting",
             "lnr-pencil",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem41 = new System.Windows.Forms.ListViewItem(new string[] {
             "Web Design",
             "lnr-laptop-phone",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem42 = new System.Windows.Forms.ListViewItem(new string[] {
             "Management",
             "lnr-flag",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
@@ -159,6 +159,14 @@ namespace Static_Website_Generator
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.listView5 = new System.Windows.Forms.ListView();
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -196,35 +204,11 @@ namespace Static_Website_Generator
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.btn_generate_and_open = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
@@ -249,12 +233,27 @@ namespace Static_Website_Generator
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.button24 = new System.Windows.Forms.Button();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
@@ -269,8 +268,10 @@ namespace Static_Website_Generator
             this.label32 = new System.Windows.Forms.Label();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button24 = new System.Windows.Forms.Button();
+            this.btn_generate_and_open = new System.Windows.Forms.Button();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -422,10 +423,10 @@ namespace Static_Website_Generator
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
-            listViewItem1.Tag = "2";
+            listViewItem22.StateImageIndex = 0;
+            listViewItem22.Tag = "2";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem22});
             this.listView1.Location = new System.Drawing.Point(6, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(281, 175);
@@ -581,6 +582,78 @@ namespace Static_Website_Generator
             this.tabPage2.Text = "About Me";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(684, 446);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(62, 27);
+            this.button13.TabIndex = 9;
+            this.button13.Text = "Del";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(616, 446);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(62, 27);
+            this.button12.TabIndex = 10;
+            this.button12.Text = "Add";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(498, 446);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(62, 27);
+            this.button11.TabIndex = 9;
+            this.button11.Text = "Del";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(430, 446);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(62, 27);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "Add";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(312, 446);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(62, 27);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Del";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(244, 446);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(62, 27);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "Add";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(126, 446);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(62, 27);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Del";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(58, 446);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(62, 27);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Add";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // listView5
             // 
             this.listView5.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -588,12 +661,12 @@ namespace Static_Website_Generator
             this.columnHeader10});
             this.listView5.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView5.HideSelection = false;
-            listViewItem2.StateImageIndex = 0;
-            listViewItem2.Tag = "";
+            listViewItem23.StateImageIndex = 0;
+            listViewItem23.Tag = "";
             this.listView5.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2,
-            listViewItem3,
-            listViewItem4});
+            listViewItem23,
+            listViewItem24,
+            listViewItem25});
             this.listView5.Location = new System.Drawing.Point(566, 265);
             this.listView5.Name = "listView5";
             this.listView5.Size = new System.Drawing.Size(180, 175);
@@ -630,12 +703,12 @@ namespace Static_Website_Generator
             this.columnHeader6});
             this.listView3.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView3.HideSelection = false;
-            listViewItem5.StateImageIndex = 0;
-            listViewItem5.Tag = "";
+            listViewItem26.StateImageIndex = 0;
+            listViewItem26.Tag = "";
             this.listView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6,
-            listViewItem7});
+            listViewItem26,
+            listViewItem27,
+            listViewItem28});
             this.listView3.Location = new System.Drawing.Point(194, 265);
             this.listView3.Name = "listView3";
             this.listView3.Size = new System.Drawing.Size(180, 175);
@@ -654,13 +727,13 @@ namespace Static_Website_Generator
             this.columnHeader4});
             this.listView2.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.HideSelection = false;
-            listViewItem8.StateImageIndex = 0;
-            listViewItem8.Tag = "";
+            listViewItem29.StateImageIndex = 0;
+            listViewItem29.Tag = "";
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11});
+            listViewItem29,
+            listViewItem30,
+            listViewItem31,
+            listViewItem32});
             this.listView2.Location = new System.Drawing.Point(8, 265);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(180, 175);
@@ -938,297 +1011,51 @@ namespace Static_Website_Generator
             this.tabPage3.Text = "Resume";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // button22
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(776, 528);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Portfolio";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.button22.Location = new System.Drawing.Point(672, 206);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(62, 27);
+            this.button22.TabIndex = 39;
+            this.button22.Text = "Del";
+            this.button22.UseVisualStyleBackColor = true;
             // 
-            // tabPage5
+            // button23
             // 
-            this.tabPage5.Controls.Add(this.textBox25);
-            this.tabPage5.Controls.Add(this.label34);
-            this.tabPage5.Controls.Add(this.checkBox10);
-            this.tabPage5.Controls.Add(this.checkBox11);
-            this.tabPage5.Controls.Add(this.checkBox12);
-            this.tabPage5.Controls.Add(this.checkBox13);
-            this.tabPage5.Controls.Add(this.textBox20);
-            this.tabPage5.Controls.Add(this.label29);
-            this.tabPage5.Controls.Add(this.textBox21);
-            this.tabPage5.Controls.Add(this.label30);
-            this.tabPage5.Controls.Add(this.textBox22);
-            this.tabPage5.Controls.Add(this.label31);
-            this.tabPage5.Controls.Add(this.textBox23);
-            this.tabPage5.Controls.Add(this.label32);
-            this.tabPage5.Controls.Add(this.textBox24);
-            this.tabPage5.Controls.Add(this.label33);
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(776, 528);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Contact";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.button23.Location = new System.Drawing.Point(604, 206);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(62, 27);
+            this.button23.TabIndex = 40;
+            this.button23.Text = "Add";
+            this.button23.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // label28
             // 
-            this.tabPage6.Controls.Add(this.button24);
-            this.tabPage6.Controls.Add(this.btn_generate_and_open);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(776, 528);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Preview & Finish";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(458, 33);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(117, 20);
+            this.label28.TabIndex = 38;
+            this.label28.Text = "Knowledges List";
             // 
-            // btn_generate_and_open
+            // listBox2
             // 
-            this.btn_generate_and_open.Location = new System.Drawing.Point(287, 270);
-            this.btn_generate_and_open.Name = "btn_generate_and_open";
-            this.btn_generate_and_open.Size = new System.Drawing.Size(220, 57);
-            this.btn_generate_and_open.TabIndex = 0;
-            this.btn_generate_and_open.Text = "Generate && Open Page";
-            this.btn_generate_and_open.UseVisualStyleBackColor = true;
-            this.btn_generate_and_open.Click += new System.EventHandler(this.btn_generate_and_open_Click);
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Items.AddRange(new object[] {
+            "Test Knowledges",
+            "More Knowledges"});
+            this.listBox2.Location = new System.Drawing.Point(462, 56);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(272, 144);
+            this.listBox2.TabIndex = 37;
             // 
-            // button6
+            // textBox19
             // 
-            this.button6.Location = new System.Drawing.Point(126, 446);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(62, 27);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "Del";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(58, 446);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(62, 27);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Add";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(244, 446);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(62, 27);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "Add";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(312, 446);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(62, 27);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Del";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(430, 446);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(62, 27);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Add";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(498, 446);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(62, 27);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "Del";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(616, 446);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(62, 27);
-            this.button12.TabIndex = 10;
-            this.button12.Text = "Add";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(684, 446);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(62, 27);
-            this.button13.TabIndex = 9;
-            this.button13.Text = "Del";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(162, 39);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(183, 27);
-            this.textBox13.TabIndex = 5;
-            this.textBox13.Text = "Resume";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(23, 42);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(133, 20);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "Resume Page Title";
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Checked = true;
-            this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox5.Location = new System.Drawing.Point(351, 173);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(77, 24);
-            this.checkBox5.TabIndex = 16;
-            this.checkBox5.Text = "Active?";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Checked = true;
-            this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox6.Location = new System.Drawing.Point(351, 140);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(77, 24);
-            this.checkBox6.TabIndex = 17;
-            this.checkBox6.Text = "Active?";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Checked = true;
-            this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox7.Location = new System.Drawing.Point(351, 107);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(77, 24);
-            this.checkBox7.TabIndex = 18;
-            this.checkBox7.Text = "Active?";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Checked = true;
-            this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox8.Location = new System.Drawing.Point(351, 74);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(77, 24);
-            this.checkBox8.TabIndex = 19;
-            this.checkBox8.Text = "Active?";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(162, 171);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(183, 27);
-            this.textBox14.TabIndex = 12;
-            this.textBox14.Text = "Coding Skills";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(27, 174);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(129, 20);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Coding Skills Title";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(162, 138);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(183, 27);
-            this.textBox15.TabIndex = 13;
-            this.textBox15.Text = "Design Skills";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(29, 141);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(127, 20);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Design Skills Title";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(162, 105);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(183, 27);
-            this.textBox16.TabIndex = 14;
-            this.textBox16.Text = "Experience";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(39, 108);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(117, 20);
-            this.label21.TabIndex = 10;
-            this.label21.Text = "Experience Title";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(162, 72);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(183, 27);
-            this.textBox17.TabIndex = 15;
-            this.textBox17.Text = "Education";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(46, 75);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(110, 20);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "Education Title";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(32, 207);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(124, 20);
-            this.label23.TabIndex = 8;
-            this.label23.Text = "Knowledges Title";
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(162, 204);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(183, 27);
-            this.textBox18.TabIndex = 12;
-            this.textBox18.Text = "Knowledges";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Checked = true;
-            this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox9.Location = new System.Drawing.Point(351, 206);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(77, 24);
-            this.checkBox9.TabIndex = 16;
-            this.checkBox9.Text = "Active?";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.textBox19.Location = new System.Drawing.Point(462, 206);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(136, 27);
+            this.textBox19.TabIndex = 36;
             // 
             // button14
             // 
@@ -1309,12 +1136,12 @@ namespace Static_Website_Generator
             this.columnHeader12});
             this.listView6.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView6.HideSelection = false;
-            listViewItem12.StateImageIndex = 0;
-            listViewItem12.Tag = "";
+            listViewItem33.StateImageIndex = 0;
+            listViewItem33.Tag = "";
             this.listView6.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem12,
-            listViewItem13,
-            listViewItem14});
+            listViewItem33,
+            listViewItem34,
+            listViewItem35});
             this.listView6.Location = new System.Drawing.Point(566, 282);
             this.listView6.Name = "listView6";
             this.listView6.Size = new System.Drawing.Size(180, 175);
@@ -1351,12 +1178,12 @@ namespace Static_Website_Generator
             this.columnHeader16});
             this.listView8.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView8.HideSelection = false;
-            listViewItem15.StateImageIndex = 0;
-            listViewItem15.Tag = "";
+            listViewItem36.StateImageIndex = 0;
+            listViewItem36.Tag = "";
             this.listView8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem15,
-            listViewItem16,
-            listViewItem17});
+            listViewItem36,
+            listViewItem37,
+            listViewItem38});
             this.listView8.Location = new System.Drawing.Point(194, 282);
             this.listView8.Name = "listView8";
             this.listView8.Size = new System.Drawing.Size(180, 175);
@@ -1375,13 +1202,13 @@ namespace Static_Website_Generator
             this.columnHeader18});
             this.listView9.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView9.HideSelection = false;
-            listViewItem18.StateImageIndex = 0;
-            listViewItem18.Tag = "";
+            listViewItem39.StateImageIndex = 0;
+            listViewItem39.Tag = "";
             this.listView9.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem18,
-            listViewItem19,
-            listViewItem20,
-            listViewItem21});
+            listViewItem39,
+            listViewItem40,
+            listViewItem41,
+            listViewItem42});
             this.listView9.Location = new System.Drawing.Point(8, 282);
             this.listView9.Name = "listView9";
             this.listView9.Size = new System.Drawing.Size(180, 175);
@@ -1429,60 +1256,221 @@ namespace Static_Website_Generator
             this.label27.TabIndex = 23;
             this.label27.Text = "Education Items";
             // 
-            // button22
+            // checkBox9
             // 
-            this.button22.Location = new System.Drawing.Point(672, 206);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(62, 27);
-            this.button22.TabIndex = 39;
-            this.button22.Text = "Del";
-            this.button22.UseVisualStyleBackColor = true;
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Checked = true;
+            this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox9.Location = new System.Drawing.Point(351, 206);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(77, 24);
+            this.checkBox9.TabIndex = 16;
+            this.checkBox9.Text = "Active?";
+            this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // checkBox5
             // 
-            this.button23.Location = new System.Drawing.Point(604, 206);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(62, 27);
-            this.button23.TabIndex = 40;
-            this.button23.Text = "Add";
-            this.button23.UseVisualStyleBackColor = true;
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Checked = true;
+            this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox5.Location = new System.Drawing.Point(351, 173);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(77, 24);
+            this.checkBox5.TabIndex = 16;
+            this.checkBox5.Text = "Active?";
+            this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // label28
+            // checkBox6
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(458, 33);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(117, 20);
-            this.label28.TabIndex = 38;
-            this.label28.Text = "Knowledges List";
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Checked = true;
+            this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox6.Location = new System.Drawing.Point(351, 140);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(77, 24);
+            this.checkBox6.TabIndex = 17;
+            this.checkBox6.Text = "Active?";
+            this.checkBox6.UseVisualStyleBackColor = true;
             // 
-            // listBox2
+            // checkBox7
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 20;
-            this.listBox2.Items.AddRange(new object[] {
-            "Test Knowledges",
-            "More Knowledges"});
-            this.listBox2.Location = new System.Drawing.Point(462, 56);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(272, 144);
-            this.listBox2.TabIndex = 37;
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Checked = true;
+            this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox7.Location = new System.Drawing.Point(351, 107);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(77, 24);
+            this.checkBox7.TabIndex = 18;
+            this.checkBox7.Text = "Active?";
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // textBox19
+            // checkBox8
             // 
-            this.textBox19.Location = new System.Drawing.Point(462, 206);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(136, 27);
-            this.textBox19.TabIndex = 36;
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Checked = true;
+            this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox8.Location = new System.Drawing.Point(351, 74);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(77, 24);
+            this.checkBox8.TabIndex = 19;
+            this.checkBox8.Text = "Active?";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
-            // button24
+            // textBox18
             // 
-            this.button24.Location = new System.Drawing.Point(287, 207);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(220, 57);
-            this.button24.TabIndex = 0;
-            this.button24.Text = "Generate && Open Folder";
-            this.button24.UseVisualStyleBackColor = true;
+            this.textBox18.Location = new System.Drawing.Point(162, 204);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(183, 27);
+            this.textBox18.TabIndex = 12;
+            this.textBox18.Text = "Knowledges";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(32, 207);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(124, 20);
+            this.label23.TabIndex = 8;
+            this.label23.Text = "Knowledges Title";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(162, 171);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(183, 27);
+            this.textBox14.TabIndex = 12;
+            this.textBox14.Text = "Coding Skills";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(27, 174);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(129, 20);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Coding Skills Title";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(162, 138);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(183, 27);
+            this.textBox15.TabIndex = 13;
+            this.textBox15.Text = "Design Skills";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(29, 141);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(127, 20);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Design Skills Title";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(162, 105);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(183, 27);
+            this.textBox16.TabIndex = 14;
+            this.textBox16.Text = "Experience";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(39, 108);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(117, 20);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "Experience Title";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(162, 72);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(183, 27);
+            this.textBox17.TabIndex = 15;
+            this.textBox17.Text = "Education";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(46, 75);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(110, 20);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Education Title";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(162, 39);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(183, 27);
+            this.textBox13.TabIndex = 5;
+            this.textBox13.Text = "Resume";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(23, 42);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(133, 20);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "Resume Page Title";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(776, 528);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Portfolio";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.textBox25);
+            this.tabPage5.Controls.Add(this.label34);
+            this.tabPage5.Controls.Add(this.checkBox14);
+            this.tabPage5.Controls.Add(this.checkBox10);
+            this.tabPage5.Controls.Add(this.checkBox11);
+            this.tabPage5.Controls.Add(this.checkBox12);
+            this.tabPage5.Controls.Add(this.checkBox13);
+            this.tabPage5.Controls.Add(this.textBox20);
+            this.tabPage5.Controls.Add(this.label29);
+            this.tabPage5.Controls.Add(this.textBox21);
+            this.tabPage5.Controls.Add(this.label30);
+            this.tabPage5.Controls.Add(this.textBox22);
+            this.tabPage5.Controls.Add(this.label31);
+            this.tabPage5.Controls.Add(this.textBox23);
+            this.tabPage5.Controls.Add(this.label32);
+            this.tabPage5.Controls.Add(this.textBox24);
+            this.tabPage5.Controls.Add(this.label33);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(776, 528);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Contact";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(291, 324);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(183, 27);
+            this.textBox25.TabIndex = 35;
+            this.textBox25.Text = "San Francisco";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(182, 327);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(102, 20);
+            this.label34.TabIndex = 34;
+            this.label34.Text = "Map Location";
             // 
             // checkBox10
             // 
@@ -1617,22 +1605,49 @@ namespace Static_Website_Generator
             this.label33.TabIndex = 20;
             this.label33.Text = "Contact Page Title";
             // 
-            // textBox25
+            // tabPage6
             // 
-            this.textBox25.Location = new System.Drawing.Point(291, 324);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(183, 27);
-            this.textBox25.TabIndex = 35;
-            this.textBox25.Text = "San Francisco";
+            this.tabPage6.Controls.Add(this.button24);
+            this.tabPage6.Controls.Add(this.btn_generate_and_open);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(776, 528);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Preview & Finish";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // label34
+            // button24
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(182, 327);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(102, 20);
-            this.label34.TabIndex = 34;
-            this.label34.Text = "Map Location";
+            this.button24.Location = new System.Drawing.Point(287, 207);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(220, 57);
+            this.button24.TabIndex = 0;
+            this.button24.Text = "Generate && Open Folder";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.btn_generate_and_open_folder_Click);
+            // 
+            // btn_generate_and_open
+            // 
+            this.btn_generate_and_open.Location = new System.Drawing.Point(287, 270);
+            this.btn_generate_and_open.Name = "btn_generate_and_open";
+            this.btn_generate_and_open.Size = new System.Drawing.Size(220, 57);
+            this.btn_generate_and_open.TabIndex = 0;
+            this.btn_generate_and_open.Text = "Generate && Open Page";
+            this.btn_generate_and_open.UseVisualStyleBackColor = true;
+            this.btn_generate_and_open.Click += new System.EventHandler(this.btn_generate_and_open_Click);
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Checked = true;
+            this.checkBox14.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox14.Location = new System.Drawing.Point(480, 326);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(77, 24);
+            this.checkBox14.TabIndex = 30;
+            this.checkBox14.Text = "Active?";
+            this.checkBox14.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -1802,6 +1817,7 @@ namespace Static_Website_Generator
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.CheckBox checkBox14;
     }
 }
 

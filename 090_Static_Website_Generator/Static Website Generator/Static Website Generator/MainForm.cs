@@ -22,15 +22,16 @@ namespace Static_Website_Generator
         }
 
         public Variables site_variables = new Variables();
+        string startup_path;
 
-        private void btn_generate_and_open_Click(object sender, EventArgs e)
+        private void Generate_Site()
         {
             //first variables
-            string startup_path = Application.StartupPath;
+            startup_path = Application.StartupPath;
             get_variables();
 
             //prepare main files
-            if(Directory.Exists(startup_path + @"\unzip_source"))
+            if (Directory.Exists(startup_path + @"\unzip_source"))
                 Directory.Delete(startup_path + @"\unzip_source", true);
             ZipFile.ExtractToDirectory(startup_path + @"\breezycv.zip", startup_path + @"\unzip_source");
             if (Directory.Exists(startup_path + @"\generate"))
@@ -68,9 +69,21 @@ namespace Static_Website_Generator
                 foreach (var item in site_variables.Titles)
                 {
                     html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[1]/div[1]/div/div/div/div").InnerHtml +=
-                        "<div class=\"item\"><div class=\"sp-subtitle\">"+item+"</div></div>";
+                        "<div class=\"item\"><div class=\"sp-subtitle\">" + item + "</div></div>";
                 }
             }
+
+            //contact info
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[3]/span[2]").InnerHtml = site_variables.Location;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[4]/span[2]/a").InnerHtml = site_variables.Email;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[4]/span[2]/a").SetAttributeValue("href", "mailto:"+site_variables.Email);
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[5]/span[2]").InnerHtml = site_variables.Phone;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[1]/h4").InnerHtml = site_variables.Location;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[2]/h4").InnerHtml = site_variables.Phone;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[3]/h4/a").InnerHtml = site_variables.Email;
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[3]/h4/a").SetAttributeValue("href", "mailto:"+site_variables.Email);
+            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[4]/h4").InnerHtml = site_variables.Freelance;
+
 
             //delete blog page and nav button
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/header/ul/li[5]").Remove();
@@ -83,8 +96,21 @@ namespace Static_Website_Generator
             if (site_variables.DownloadLink != "") File.Copy(site_variables.DownloadLink, startup_path + site_variables.DownloadFileName);
 
             //all done :)
-            MessageBox.Show("All site generation done","Done");
+            MessageBox.Show("All site generation done", "Done");
+        }
+
+        private void btn_generate_and_open_Click(object sender, EventArgs e)
+        {
+            startup_path = Application.StartupPath;
+            Generate_Site();
             System.Diagnostics.Process.Start(startup_path + @"\generate\index.html");
+        }
+
+        private void btn_generate_and_open_folder_Click(object sender, EventArgs e)
+        {
+            startup_path = Application.StartupPath;
+            Generate_Site();
+            System.Diagnostics.Process.Start(startup_path + @"\generate\");
         }
 
         private void get_variables()
@@ -105,6 +131,12 @@ namespace Static_Website_Generator
             foreach (ListViewItem item in listView1.Items)
                 site_variables.Socials.Add( new string[]{
                 Variables.SocialMediaIcons[(Variables.SocialMedias)int.Parse(item.Tag.ToString())], item.SubItems[1].Text } );
+
+            site_variables.Location = textBox23.Text;
+            site_variables.Phone = textBox22.Text;
+            site_variables.Email = textBox21.Text;
+            site_variables.Freelance = textBox20.Text;
+            site_variables.Map_Location = textBox25.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
