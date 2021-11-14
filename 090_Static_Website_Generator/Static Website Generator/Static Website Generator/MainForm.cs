@@ -74,7 +74,6 @@ namespace Static_Website_Generator
             }
 
             //contact info
-            html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[3]/span[2]").InnerHtml = site_variables.Location;
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[4]/span[2]/a").InnerHtml = site_variables.Email;
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[4]/span[2]/a").SetAttributeValue("href", "mailto:"+site_variables.Email);
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[5]/span[2]").InnerHtml = site_variables.Phone;
@@ -83,6 +82,18 @@ namespace Static_Website_Generator
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[3]/h4/a").InnerHtml = site_variables.Email;
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[3]/h4/a").SetAttributeValue("href", "mailto:"+site_variables.Email);
             html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[4]/h4").InnerHtml = site_variables.Freelance;
+            if (site_variables.isFreelance) html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[4]").Remove();
+            if (site_variables.isEmail)
+            {
+                html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[4]").Remove();
+                html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[3]").Remove();
+            }
+            if (site_variables.isPhone)
+            {
+                html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[2]/div[2]/div[1]/div[2]/div/ul/li[5]").Remove();
+                html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[2]").Remove();
+            }
+            if (site_variables.isLocation) html_index.DocumentNode.SelectSingleNode("/html/body/div[3]/div/div[3]/div/section[6]/div[2]/div/div[1]/div[1]").Remove();
 
 
             //delete blog page and nav button
@@ -137,6 +148,12 @@ namespace Static_Website_Generator
             site_variables.Email = textBox21.Text;
             site_variables.Freelance = textBox20.Text;
             site_variables.Map_Location = textBox25.Text;
+
+            site_variables.isLocation = checkBox13.Checked;
+            site_variables.isPhone = checkBox12.Checked;
+            site_variables.isEmail = checkBox11.Checked;
+            site_variables.isFreelance = checkBox10.Checked;
+            site_variables.isMap_Location = checkBox14.Checked;
         }
 
         private void button1_Click(object sender, EventArgs e)

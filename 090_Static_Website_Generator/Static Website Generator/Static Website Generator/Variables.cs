@@ -56,5 +56,10 @@ namespace Static_Website_Generator
         public string Email;
         public string Freelance;
         public string Map_Location;
+        internal bool isLocation;
+        internal bool isPhone;
+        internal bool isEmail;
+        internal bool isFreelance;
+        internal bool isMap_Location;
     }
 }
