@@ -51,6 +51,10 @@ namespace Static_Website_Generator
             html_index.DocumentNode.SelectSingleNode("/html/head/meta[6]").SetAttributeValue("content", site_variables.SiteName);//author meta
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[1]/div[2]/h2").InnerHtml = site_variables.SiteName;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[1]/a/span[2]").InnerHtml = site_variables.PageTitle_Home;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[2]/a/span[2]").InnerHtml = site_variables.PageTitle_About;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[3]/a/span[2]").InnerHtml = site_variables.PageTitle_Resume;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[4]/a/span[2]").InnerHtml = site_variables.PageTitle_Portfolio;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[5]/a/span[2]").InnerHtml = site_variables.PageTitle_Contact;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").InnerHtml = site_variables.DownloadButton;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").SetAttributeValue("href", site_variables.DownloadFileName.Substring(1));
 
@@ -129,6 +133,10 @@ namespace Static_Website_Generator
             site_variables.Theme = radioButton1.Checked ? Variables.Themes.Light : Variables.Themes.Dark;
             site_variables.SiteName = textBox1.Text;
             site_variables.PageTitle_Home = textBox6.Text;
+            site_variables.PageTitle_About = textBox5.Text;
+            site_variables.PageTitle_Resume = textBox13.Text;
+            site_variables.PageTitle_Portfolio = "Portfolio";
+            site_variables.PageTitle_Contact = textBox24.Text;
             site_variables.DownloadButton = textBox3.Text;
             site_variables.DownloadLink = textBox4.Text;
             if (site_variables.DownloadLink == "") site_variables.DownloadFileName = "##";
