@@ -54,7 +54,7 @@ namespace Static_Website_Generator
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[2]/a/span[2]").InnerHtml = site_variables.PageTitle_About;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[3]/a/span[2]").InnerHtml = site_variables.PageTitle_Resume;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[4]/a/span[2]").InnerHtml = site_variables.PageTitle_Portfolio;
-            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[5]/a/span[2]").InnerHtml = site_variables.PageTitle_Contact;
+            html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/ul/li[6]/a/span[2]").InnerHtml = site_variables.PageTitle_Contact;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").InnerHtml = site_variables.DownloadButton;
             html_index.DocumentNode.SelectSingleNode("//*[@id=\"site_header\"]/div[3]/a").SetAttributeValue("href", site_variables.DownloadFileName.Substring(1));
 
