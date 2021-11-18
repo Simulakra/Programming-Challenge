@@ -29,106 +29,106 @@ namespace Static_Website_Generator
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Facebook",
             "https://tr-tr.facebook.com/test"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Happy Clients",
             "578",
             "lnr-heart"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Working Hours",
             "4780",
             "lnr-clock"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Awards Won",
             "15",
             "lnr-star"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Julia Hickman",
             "Omni Source",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Robert Watkins",
             "Endicott Shoes",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kristin Carroll",
             "Helping Hand",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ecommerce",
             "lnr-store",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Copywriting",
             "lnr-pencil",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "Web Design",
             "lnr-laptop-phone",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Management",
             "lnr-flag",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Happy Clients",
             "578",
             "lnr-heart"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Working Hours",
             "4780",
             "lnr-clock"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Awards Won",
             "15",
             "lnr-star"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Julia Hickman",
             "Omni Source",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Robert Watkins",
             "Endicott Shoes",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kristin Carroll",
             "Helping Hand",
             "Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condi" +
                 "mentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque" +
                 ", at vehicula dui ultrices."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ecommerce",
             "lnr-store",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
             "Copywriting",
             "lnr-pencil",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem41 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
             "Web Design",
             "lnr-laptop-phone",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
                 "assa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."}, -1);
-            System.Windows.Forms.ListViewItem listViewItem42 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "Management",
             "lnr-flag",
             "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum m" +
@@ -254,6 +254,7 @@ namespace Static_Website_Generator
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
@@ -271,7 +272,7 @@ namespace Static_Website_Generator
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button24 = new System.Windows.Forms.Button();
             this.btn_generate_and_open = new System.Windows.Forms.Button();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.button25 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -423,10 +424,10 @@ namespace Static_Website_Generator
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            listViewItem22.StateImageIndex = 0;
-            listViewItem22.Tag = "2";
+            listViewItem1.StateImageIndex = 0;
+            listViewItem1.Tag = "2";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem22});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(6, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(281, 175);
@@ -661,12 +662,12 @@ namespace Static_Website_Generator
             this.columnHeader10});
             this.listView5.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView5.HideSelection = false;
-            listViewItem23.StateImageIndex = 0;
-            listViewItem23.Tag = "";
+            listViewItem2.StateImageIndex = 0;
+            listViewItem2.Tag = "";
             this.listView5.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem23,
-            listViewItem24,
-            listViewItem25});
+            listViewItem2,
+            listViewItem3,
+            listViewItem4});
             this.listView5.Location = new System.Drawing.Point(566, 265);
             this.listView5.Name = "listView5";
             this.listView5.Size = new System.Drawing.Size(180, 175);
@@ -703,12 +704,12 @@ namespace Static_Website_Generator
             this.columnHeader6});
             this.listView3.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView3.HideSelection = false;
-            listViewItem26.StateImageIndex = 0;
-            listViewItem26.Tag = "";
+            listViewItem5.StateImageIndex = 0;
+            listViewItem5.Tag = "";
             this.listView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem26,
-            listViewItem27,
-            listViewItem28});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7});
             this.listView3.Location = new System.Drawing.Point(194, 265);
             this.listView3.Name = "listView3";
             this.listView3.Size = new System.Drawing.Size(180, 175);
@@ -727,13 +728,13 @@ namespace Static_Website_Generator
             this.columnHeader4});
             this.listView2.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.HideSelection = false;
-            listViewItem29.StateImageIndex = 0;
-            listViewItem29.Tag = "";
+            listViewItem8.StateImageIndex = 0;
+            listViewItem8.Tag = "";
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem29,
-            listViewItem30,
-            listViewItem31,
-            listViewItem32});
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11});
             this.listView2.Location = new System.Drawing.Point(8, 265);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(180, 175);
@@ -1136,12 +1137,12 @@ namespace Static_Website_Generator
             this.columnHeader12});
             this.listView6.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView6.HideSelection = false;
-            listViewItem33.StateImageIndex = 0;
-            listViewItem33.Tag = "";
+            listViewItem12.StateImageIndex = 0;
+            listViewItem12.Tag = "";
             this.listView6.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem33,
-            listViewItem34,
-            listViewItem35});
+            listViewItem12,
+            listViewItem13,
+            listViewItem14});
             this.listView6.Location = new System.Drawing.Point(566, 282);
             this.listView6.Name = "listView6";
             this.listView6.Size = new System.Drawing.Size(180, 175);
@@ -1178,12 +1179,12 @@ namespace Static_Website_Generator
             this.columnHeader16});
             this.listView8.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView8.HideSelection = false;
-            listViewItem36.StateImageIndex = 0;
-            listViewItem36.Tag = "";
+            listViewItem15.StateImageIndex = 0;
+            listViewItem15.Tag = "";
             this.listView8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem36,
-            listViewItem37,
-            listViewItem38});
+            listViewItem15,
+            listViewItem16,
+            listViewItem17});
             this.listView8.Location = new System.Drawing.Point(194, 282);
             this.listView8.Name = "listView8";
             this.listView8.Size = new System.Drawing.Size(180, 175);
@@ -1202,13 +1203,13 @@ namespace Static_Website_Generator
             this.columnHeader18});
             this.listView9.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView9.HideSelection = false;
-            listViewItem39.StateImageIndex = 0;
-            listViewItem39.Tag = "";
+            listViewItem18.StateImageIndex = 0;
+            listViewItem18.Tag = "";
             this.listView9.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem39,
-            listViewItem40,
-            listViewItem41,
-            listViewItem42});
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21});
             this.listView9.Location = new System.Drawing.Point(8, 282);
             this.listView9.Name = "listView9";
             this.listView9.Size = new System.Drawing.Size(180, 175);
@@ -1472,6 +1473,18 @@ namespace Static_Website_Generator
             this.label34.TabIndex = 34;
             this.label34.Text = "Map Location";
             // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Checked = true;
+            this.checkBox14.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox14.Location = new System.Drawing.Point(480, 326);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(77, 24);
+            this.checkBox14.TabIndex = 30;
+            this.checkBox14.Text = "Active?";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
             // checkBox10
             // 
             this.checkBox10.AutoSize = true;
@@ -1607,6 +1620,7 @@ namespace Static_Website_Generator
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.button25);
             this.tabPage6.Controls.Add(this.button24);
             this.tabPage6.Controls.Add(this.btn_generate_and_open);
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
@@ -1637,17 +1651,15 @@ namespace Static_Website_Generator
             this.btn_generate_and_open.UseVisualStyleBackColor = true;
             this.btn_generate_and_open.Click += new System.EventHandler(this.btn_generate_and_open_Click);
             // 
-            // checkBox14
+            // button25
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Checked = true;
-            this.checkBox14.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox14.Location = new System.Drawing.Point(480, 326);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(77, 24);
-            this.checkBox14.TabIndex = 30;
-            this.checkBox14.Text = "Active?";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.button25.Location = new System.Drawing.Point(287, 144);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(220, 57);
+            this.button25.TabIndex = 0;
+            this.button25.Text = "Just Generate";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.btn_just_generate_Click);
             // 
             // MainForm
             // 
@@ -1818,6 +1830,7 @@ namespace Static_Website_Generator
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.Button button25;
     }
 }
 
